@@ -52,7 +52,7 @@
 		7204774A1CCB053F005D8772 /* ShibaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShibaTableViewController.swift; sourceTree = "<group>"; };
 		7204774C1CCB05CB005D8772 /* Shiba.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shiba.swift; sourceTree = "<group>"; };
 		7204774E1CCB0674005D8772 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
-		720477501CCB1A88005D8772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		720477501CCB1A88005D8772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +90,6 @@
 				720477191CCAEBB6005D8772 /* Cheesecake */,
 				7204772E1CCAEBB7005D8772 /* CheesecakeTests */,
 				720477181CCAEBB6005D8772 /* Products */,
-				720477501CCB1A88005D8772 /* Assets.xcassets */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +111,7 @@
 				7204771E1CCAEBB7005D8772 /* Main.storyboard */,
 				720477231CCAEBB7005D8772 /* LaunchScreen.storyboard */,
 				720477261CCAEBB7005D8772 /* Info.plist */,
+				720477501CCB1A88005D8772 /* Assets.xcassets */,
 			);
 			path = Cheesecake;
 			sourceTree = "<group>";
