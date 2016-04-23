@@ -10,10 +10,13 @@
 		7204771B1CCAEBB6005D8772 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7204771A1CCAEBB6005D8772 /* AppDelegate.swift */; };
 		7204771D1CCAEBB6005D8772 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7204771C1CCAEBB6005D8772 /* ViewController.swift */; };
 		720477201CCAEBB7005D8772 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7204771E1CCAEBB7005D8772 /* Main.storyboard */; };
-		720477221CCAEBB7005D8772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 720477211CCAEBB7005D8772 /* Assets.xcassets */; };
 		720477251CCAEBB7005D8772 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720477231CCAEBB7005D8772 /* LaunchScreen.storyboard */; };
 		720477301CCAEBB7005D8772 /* CheesecakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7204772F1CCAEBB7005D8772 /* CheesecakeTests.swift */; };
 		7204773B1CCAEBB7005D8772 /* CheesecakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7204773A1CCAEBB7005D8772 /* CheesecakeUITests.swift */; };
+		7204774B1CCB053F005D8772 /* ShibaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7204774A1CCB053F005D8772 /* ShibaTableViewController.swift */; };
+		7204774D1CCB05CB005D8772 /* Shiba.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7204774C1CCB05CB005D8772 /* Shiba.swift */; };
+		7204774F1CCB0674005D8772 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7204774E1CCB0674005D8772 /* SampleData.swift */; };
+		720477511CCB1A88005D8772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 720477501CCB1A88005D8772 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,6 @@
 		7204771A1CCAEBB6005D8772 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7204771C1CCAEBB6005D8772 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7204771F1CCAEBB7005D8772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		720477211CCAEBB7005D8772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		720477241CCAEBB7005D8772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		720477261CCAEBB7005D8772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7204772B1CCAEBB7005D8772 /* CheesecakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheesecakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +49,10 @@
 		720477361CCAEBB7005D8772 /* CheesecakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheesecakeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7204773A1CCAEBB7005D8772 /* CheesecakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheesecakeUITests.swift; sourceTree = "<group>"; };
 		7204773C1CCAEBB7005D8772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7204774A1CCB053F005D8772 /* ShibaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShibaTableViewController.swift; sourceTree = "<group>"; };
+		7204774C1CCB05CB005D8772 /* Shiba.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shiba.swift; sourceTree = "<group>"; };
+		7204774E1CCB0674005D8772 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		720477501CCB1A88005D8772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +83,14 @@
 		7204770E1CCAEBB5005D8772 = {
 			isa = PBXGroup;
 			children = (
+				7204774C1CCB05CB005D8772 /* Shiba.swift */,
+				7204774E1CCB0674005D8772 /* SampleData.swift */,
+				7204774A1CCB053F005D8772 /* ShibaTableViewController.swift */,
+				720477391CCAEBB7005D8772 /* CheesecakeUITests */,
 				720477191CCAEBB6005D8772 /* Cheesecake */,
 				7204772E1CCAEBB7005D8772 /* CheesecakeTests */,
-				720477391CCAEBB7005D8772 /* CheesecakeUITests */,
 				720477181CCAEBB6005D8772 /* Products */,
+				720477501CCB1A88005D8772 /* Assets.xcassets */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +110,6 @@
 				7204771A1CCAEBB6005D8772 /* AppDelegate.swift */,
 				7204771C1CCAEBB6005D8772 /* ViewController.swift */,
 				7204771E1CCAEBB7005D8772 /* Main.storyboard */,
-				720477211CCAEBB7005D8772 /* Assets.xcassets */,
 				720477231CCAEBB7005D8772 /* LaunchScreen.storyboard */,
 				720477261CCAEBB7005D8772 /* Info.plist */,
 			);
@@ -187,12 +196,17 @@
 		7204770F1CCAEBB5005D8772 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					100,
+					101,
+				);
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Hy.;
 				TargetAttributes = {
 					720477161CCAEBB6005D8772 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = U8G5JD28GM;
 					};
 					7204772A1CCAEBB7005D8772 = {
 						CreatedOnToolsVersion = 7.3;
@@ -230,7 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				720477251CCAEBB7005D8772 /* LaunchScreen.storyboard in Resources */,
-				720477221CCAEBB7005D8772 /* Assets.xcassets in Resources */,
+				720477511CCB1A88005D8772 /* Assets.xcassets in Resources */,
 				720477201CCAEBB7005D8772 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7204771D1CCAEBB6005D8772 /* ViewController.swift in Sources */,
+				7204774D1CCB05CB005D8772 /* Shiba.swift in Sources */,
+				7204774B1CCB053F005D8772 /* ShibaTableViewController.swift in Sources */,
+				7204774F1CCB0674005D8772 /* SampleData.swift in Sources */,
 				7204771B1CCAEBB6005D8772 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,7 +416,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Cheesecake/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Matcha.Cheesecake;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,7 +429,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Cheesecake/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Matcha.Cheesecake;
 				PRODUCT_NAME = "$(TARGET_NAME)";
