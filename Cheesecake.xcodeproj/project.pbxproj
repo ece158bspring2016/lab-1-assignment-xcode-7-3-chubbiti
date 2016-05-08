@@ -17,6 +17,8 @@
 		7204774D1CCB05CB005D8772 /* Shiba.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7204774C1CCB05CB005D8772 /* Shiba.swift */; };
 		7204774F1CCB0674005D8772 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7204774E1CCB0674005D8772 /* SampleData.swift */; };
 		720477531CCB227F005D8772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 720477521CCB227F005D8772 /* Assets.xcassets */; };
+		721E835F1CDF31FB001D0BFB /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721E835E1CDF31FB001D0BFB /* PlayerDetailsViewController.swift */; };
+		721E83611CDF3FAE001D0BFB /* GamePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721E83601CDF3FAE001D0BFB /* GamePickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		7204774C1CCB05CB005D8772 /* Shiba.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Shiba.swift; path = ../Shiba.swift; sourceTree = "<group>"; };
 		7204774E1CCB0674005D8772 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SampleData.swift; path = ../SampleData.swift; sourceTree = "<group>"; };
 		720477521CCB227F005D8772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		721E835E1CDF31FB001D0BFB /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
+		721E83601CDF3FAE001D0BFB /* GamePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				7204774E1CCB0674005D8772 /* SampleData.swift */,
 				7204774A1CCB053F005D8772 /* ShibaTableViewController.swift */,
 				7204771E1CCAEBB7005D8772 /* Main.storyboard */,
+				721E83601CDF3FAE001D0BFB /* GamePickerViewController.swift */,
+				721E835E1CDF31FB001D0BFB /* PlayerDetailsViewController.swift */,
 				720477231CCAEBB7005D8772 /* LaunchScreen.storyboard */,
 				720477261CCAEBB7005D8772 /* Info.plist */,
 				720477521CCB227F005D8772 /* Assets.xcassets */,
@@ -272,6 +278,8 @@
 			files = (
 				7204771D1CCAEBB6005D8772 /* ViewController.swift in Sources */,
 				7204774D1CCB05CB005D8772 /* Shiba.swift in Sources */,
+				721E83611CDF3FAE001D0BFB /* GamePickerViewController.swift in Sources */,
+				721E835F1CDF31FB001D0BFB /* PlayerDetailsViewController.swift in Sources */,
 				7204774B1CCB053F005D8772 /* ShibaTableViewController.swift in Sources */,
 				7204774F1CCB0674005D8772 /* SampleData.swift in Sources */,
 				7204771B1CCAEBB6005D8772 /* AppDelegate.swift in Sources */,
@@ -503,6 +511,7 @@
 				720477411CCAEBB7005D8772 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		720477421CCAEBB7005D8772 /* Build configuration list for PBXNativeTarget "CheesecakeTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +520,7 @@
 				720477441CCAEBB7005D8772 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		720477451CCAEBB7005D8772 /* Build configuration list for PBXNativeTarget "CheesecakeUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +529,7 @@
 				720477471CCAEBB7005D8772 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
